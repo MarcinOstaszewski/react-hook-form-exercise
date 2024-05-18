@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form } from './Form/Form';
+import { ProductForm } from './Form/ProductForm';
 import './App.css';
 import { Flex } from './components/Flex/Flex';
 
@@ -12,7 +12,7 @@ function App() {
       </header>
       <main>
         <Flex width="100%" justifycontent="center">
-          <Form />
+          <ProductForm />
         </Flex>
 
       </main>

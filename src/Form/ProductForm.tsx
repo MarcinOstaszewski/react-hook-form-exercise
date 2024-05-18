@@ -7,7 +7,7 @@ import { FormStyled } from './Form.styled';
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Description } from './Description/Description';
 
-export const Form = () => {
+export const ProductForm = () => {
   const {
     register,
     handleSubmit,
