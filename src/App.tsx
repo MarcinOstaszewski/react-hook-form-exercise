@@ -11,7 +11,7 @@ function App() {
         eStoreLabs - React Hook Form
       </header>
       <main>
-        <Flex width="100%" justifyContent="center">
+        <Flex width="100%" justifycontent="center">
           <Form />
         </Flex>
 

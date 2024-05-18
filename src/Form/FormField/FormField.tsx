@@ -8,13 +8,13 @@ const FormField: React.FC<FormFieldProps> = ({
   error,
   valueAsNumber,
 }) => (
-  <>
+  <div>
     <input
       type={type}
       placeholder={placeholder}
       {...register(name, { valueAsNumber })}
     />
-    {error && <span className="error-message">{error.message}</span>}
-  </>
+    {error?.message && <span className="error-message">{error.message}</span>}
+  </div>
 );
 export default FormField;

@@ -3,6 +3,10 @@
 }
 
 .App {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
   min-height: 100vh;
   background-color: #fff;
   text-align: center;
@@ -21,4 +25,15 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.error-message {
+  display: block;
+  color: #a00;
+  font-size: 0.9em;
+  padding: .33em;
+}
+
+input {
+  font-size: 1.2em;
 }

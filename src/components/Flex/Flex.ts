@@ -2,10 +2,10 @@ import styled from 'styled-components';
 
 interface IFlexProps {
   direction?: string;
-  justifyContent?: string;
-  justifyItems?: string;
-  alignContent?: string;
-  alignItems?: string;
+  justifycontent?: string;
+  justifyitems?: string;
+  aligncontent?: string;
+  alignitems?: string;
   wrap?: string;
   grow?: number;
   width?: string;
@@ -16,11 +16,11 @@ export const Flex = styled('div')<IFlexProps>`
   display: flex;
   margin: 6px;
   ${({ direction }) => direction && `flex-direction: ${direction}`};
-  ${({ justifyContent }) =>
-    justifyContent && `justify-content: ${justifyContent}`};
-  ${({ justifyItems }) => justifyItems && `justify-items: ${justifyItems}`};
-  ${({ alignContent }) => alignContent && `align-content: ${alignContent}`};
-  ${({ alignItems }) => alignItems && `align-items: ${alignItems}`};
+  ${({ justifycontent }) =>
+    justifycontent && `justify-content: ${justifycontent}`};
+  ${({ justifyitems }) => justifyitems && `justify-items: ${justifyitems}`};
+  ${({ aligncontent }) => aligncontent && `align-content: ${aligncontent}`};
+  ${({ alignitems }) => alignitems && `align-items: ${alignitems}`};
   ${({ wrap }) => wrap && `flex-wrap: ${wrap || 'wrap'}`};
   ${({ grow }) => grow && `flex-grow: ${grow}`};
   ${({ width }) => width && `width: ${width}`};
